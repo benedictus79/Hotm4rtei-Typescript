@@ -1,0 +1,22 @@
+{
+  "name": "hotmartei",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@types/jest": "^29.5.12",
+    "async-mutex": "^0.5.0",
+    "axios": "^1.6.8",
+    "node-html-parser": "^6.1.13",
+    "ytdlp-nodejs": "^0.1.4"
+  }
+}

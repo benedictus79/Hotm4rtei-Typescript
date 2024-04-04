@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "strict": true,
+    "preserveConstEnums": true,
+    "sourceMap": false,
+    "module":"commonjs",
+    "moduleResolution":"node",
+    "esModuleInterop": true, 
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node", "@types/jest"],
+    "outDir": "dist",
+    "baseUrl": "./",
+  },
+  "include": [
+    "./src/**/*",
+    "./api/**/*",
+    "./server/**/*",
+    "__tests__/**/*",
+  ],
+  "exclude": ["node_modules"],
+}
